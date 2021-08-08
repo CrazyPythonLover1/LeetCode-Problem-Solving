@@ -4,4 +4,4 @@ def twoSum(self, nums: List[int], target: int) -> List[int]:
         while i<=length:
             if nums[i] + nums[i+1] == target:
                 return [i, i+1]
-            
+            i += 1
